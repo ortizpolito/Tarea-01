@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Inicio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portafolio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Contactos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">''</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- lo que esta arriba es el narvac-->
+<br>
+<div class="container-fluid">
+		<div class="row mt-5">
+			<div class="col">
+				<div class="carousel slide carousel-fade" id="mi-carousel" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="img-fluid" src="img/ecovidateam2.png" alt="">
+						</div>
+						<div class="carousel-item" data-bs-interval="5000">
+							<div class="carousel-caption">
+								<h5>Titulo de mi articulo</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, hic.</p>
+							</div>
+							<img class="img-fluid" src="img/monarch-butterflies-flying-over-a-river-free-photo.jpeg" alt="">
+						</div>
+						<div class="carousel-item">
+							<img class="img-fluid" src="img/Términos-de-un-diseñador-gráfico.jpg" alt="">
+						</div>
+					</div>
+
+					<!-- Controles -->
+					<button 
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#mi-carousel"
+						data-bs-slide="prev"
+					>
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Anterior</span>
+					</button>
+
+					<button 
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#mi-carousel"
+						data-bs-slide="next"
+					>
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Siguiente</span>
+					</button>
+
+					<!-- Indicadores -->
+					<div class="carousel-indicators">
+						<button 
+							type="button"
+							class="active"
+							data-bs-target="#mi-carousel"
+							data-bs-slide-to="0"
+							aria-label="Slide 1"
+						></button>
+						<button 
+							type="button"
+							class=""
+							data-bs-target="#mi-carousel"
+							data-bs-slide-to="1"
+							aria-label="Slide 2"
+						></button>
+						<button 
+							type="button"
+							class=""
+							data-bs-target="#mi-carousel"
+							data-bs-slide-to="2"
+							aria-label="Slide 3"
+						></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+    <script src="bootstrap/bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
